@@ -1,0 +1,65 @@
+
+
+body{
+ margin: 0px;
+    
+}
+.header{
+    
+    background-color: beige;
+    h2{
+        margin: 0px;
+        padding: 15px;
+        font-size: 30px;
+        .relief{
+            color: blueviolet;
+        }
+    }
+}
+
+@mixin section ($Back,$color){
+    
+    display: flex;
+    flex-direction: column;
+    background-color: $Back;
+    padding: 8px;
+    margin: 2%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    box-shadow:0px 0px 5px 5px rgba($Back,0.5);
+    h3{
+        text-align: center;
+        color:$color;
+    }
+    p{
+        text-align: justify;
+    }
+    .imagenes{
+        display: flex;
+        justify-content: center;
+        img{
+            width: 30%;
+        }
+    }
+    
+
+}
+
+.main{
+    display: flex;
+    .disenioweb{
+        @include section(cadetblue,white);
+    }
+    .montania{
+        @include section(chocolate,white );
+    }
+    .animales{
+        @include section(coral,white );
+    }
+}
+@media (max-width: 700px) {
+    .main{
+        flex-direction: column;
+    }
+}

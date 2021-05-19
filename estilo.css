@@ -1,0 +1,150 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  background-color: beige;
+}
+
+.header h2 {
+  margin: 0px;
+  padding: 15px;
+  font-size: 30px;
+}
+
+.header h2 .relief {
+  color: blueviolet;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .disenioweb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: cadetblue;
+  padding: 8px;
+  margin: 2%;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(95, 158, 160, 0.5);
+          box-shadow: 0px 0px 5px 5px rgba(95, 158, 160, 0.5);
+}
+
+.main .disenioweb h3 {
+  text-align: center;
+  color: white;
+}
+
+.main .disenioweb p {
+  text-align: justify;
+}
+
+.main .disenioweb .imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .disenioweb .imagenes img {
+  width: 30%;
+}
+
+.main .montania {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: chocolate;
+  padding: 8px;
+  margin: 2%;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(210, 105, 30, 0.5);
+          box-shadow: 0px 0px 5px 5px rgba(210, 105, 30, 0.5);
+}
+
+.main .montania h3 {
+  text-align: center;
+  color: white;
+}
+
+.main .montania p {
+  text-align: justify;
+}
+
+.main .montania .imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .montania .imagenes img {
+  width: 30%;
+}
+
+.main .animales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: coral;
+  padding: 8px;
+  margin: 2%;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(255, 127, 80, 0.5);
+          box-shadow: 0px 0px 5px 5px rgba(255, 127, 80, 0.5);
+}
+
+.main .animales h3 {
+  text-align: center;
+  color: white;
+}
+
+.main .animales p {
+  text-align: justify;
+}
+
+.main .animales .imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .animales .imagenes img {
+  width: 30%;
+}
+
+@media (max-width: 700px) {
+  .main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
