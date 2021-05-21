@@ -36,17 +36,30 @@ body{
         text-align: justify;
     }
     .imagenes{
+     
         display: flex;
         justify-content: center;
         img{
             width: 30%;
         }
+        
     }
     
 
 }
 
 .main{
+
+    h3{
+        text-align: right;
+        color:rgb(221, 168, 149);
+        font-size: 25px;
+        padding-right:2%;
+        letter-spacing: 2px;
+        margin: 5px 0px 5px 0px;
+    }
+    .section1{
+    
     display: flex;
     .disenioweb{
         @include section(cadetblue,white);
@@ -58,8 +71,37 @@ body{
         @include section(coral,white );
     }
 }
-@media (max-width: 700px) {
-    .main{
+    .section2{
+        .otrasaficiones{
+            background-color: #FAD7A0;
+            display: flex;
+            flex-direction: column; 
+            border-radius: 5px;
+            margin: 2%;
+            h4{
+                text-align: center;
+                color: #DC7633;
+                letter-spacing: 2px;
+                font-size: 20px;
+                margin-bottom: 5px;
+            }
+            .series{
+                @include section(#EB984E,white);
+                .video{
+                    display: flex;
+                    justify-content: center;
+                    iframe{
+                        border-radius: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 600px) {
+    .section1{
         flex-direction: column;
     }
 }

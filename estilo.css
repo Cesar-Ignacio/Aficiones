@@ -16,13 +16,22 @@ body {
   color: blueviolet;
 }
 
-.main {
+.main h3 {
+  text-align: right;
+  color: #dda895;
+  font-size: 25px;
+  padding-right: 2%;
+  letter-spacing: 2px;
+  margin: 5px 0px 5px 0px;
+}
+
+.main .section1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.main .disenioweb {
+.main .section1 .disenioweb {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,16 +48,16 @@ body {
           box-shadow: 0px 0px 5px 5px rgba(95, 158, 160, 0.5);
 }
 
-.main .disenioweb h3 {
+.main .section1 .disenioweb h3 {
   text-align: center;
   color: white;
 }
 
-.main .disenioweb p {
+.main .section1 .disenioweb p {
   text-align: justify;
 }
 
-.main .disenioweb .imagenes {
+.main .section1 .disenioweb .imagenes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,11 +66,11 @@ body {
           justify-content: center;
 }
 
-.main .disenioweb .imagenes img {
+.main .section1 .disenioweb .imagenes img {
   width: 30%;
 }
 
-.main .montania {
+.main .section1 .montania {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,16 +87,16 @@ body {
           box-shadow: 0px 0px 5px 5px rgba(210, 105, 30, 0.5);
 }
 
-.main .montania h3 {
+.main .section1 .montania h3 {
   text-align: center;
   color: white;
 }
 
-.main .montania p {
+.main .section1 .montania p {
   text-align: justify;
 }
 
-.main .montania .imagenes {
+.main .section1 .montania .imagenes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,11 +105,11 @@ body {
           justify-content: center;
 }
 
-.main .montania .imagenes img {
+.main .section1 .montania .imagenes img {
   width: 30%;
 }
 
-.main .animales {
+.main .section1 .animales {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,16 +126,16 @@ body {
           box-shadow: 0px 0px 5px 5px rgba(255, 127, 80, 0.5);
 }
 
-.main .animales h3 {
+.main .section1 .animales h3 {
   text-align: center;
   color: white;
 }
 
-.main .animales p {
+.main .section1 .animales p {
   text-align: justify;
 }
 
-.main .animales .imagenes {
+.main .section1 .animales .imagenes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -135,12 +144,85 @@ body {
           justify-content: center;
 }
 
-.main .animales .imagenes img {
+.main .section1 .animales .imagenes img {
   width: 30%;
 }
 
-@media (max-width: 700px) {
-  .main {
+.main .section2 .otrasaficiones {
+  background-color: #FAD7A0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.main .section2 .otrasaficiones h4 {
+  text-align: center;
+  color: #DC7633;
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.main .section2 .otrasaficiones .series {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #EB984E;
+  padding: 8px;
+  margin: 2%;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(235, 152, 78, 0.5);
+          box-shadow: 0px 0px 5px 5px rgba(235, 152, 78, 0.5);
+}
+
+.main .section2 .otrasaficiones .series h3 {
+  text-align: center;
+  color: white;
+}
+
+.main .section2 .otrasaficiones .series p {
+  text-align: justify;
+}
+
+.main .section2 .otrasaficiones .series .imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .section2 .otrasaficiones .series .imagenes img {
+  width: 30%;
+}
+
+.main .section2 .otrasaficiones .series .video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .section2 .otrasaficiones .series .video iframe {
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .section1 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
