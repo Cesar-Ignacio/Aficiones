@@ -46,6 +46,8 @@ body {
   border-bottom-right-radius: 20px;
   -webkit-box-shadow: 0px 0px 5px 5px rgba(95, 158, 160, 0.5);
           box-shadow: 0px 0px 5px 5px rgba(95, 158, 160, 0.5);
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 .main .section1 .disenioweb h3 {
@@ -85,6 +87,8 @@ body {
   border-bottom-right-radius: 20px;
   -webkit-box-shadow: 0px 0px 5px 5px rgba(210, 105, 30, 0.5);
           box-shadow: 0px 0px 5px 5px rgba(210, 105, 30, 0.5);
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 .main .section1 .montania h3 {
@@ -124,6 +128,8 @@ body {
   border-bottom-right-radius: 20px;
   -webkit-box-shadow: 0px 0px 5px 5px rgba(255, 127, 80, 0.5);
           box-shadow: 0px 0px 5px 5px rgba(255, 127, 80, 0.5);
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 .main .section1 .animales h3 {
@@ -146,6 +152,30 @@ body {
 
 .main .section1 .animales .imagenes img {
   width: 30%;
+}
+
+.main .section1 .animales:hover {
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.main .section1 .montania:hover {
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.main .section1 .disenioweb:hover {
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .main .section2 .otrasaficiones {
@@ -184,6 +214,8 @@ body {
   border-bottom-right-radius: 20px;
   -webkit-box-shadow: 0px 0px 5px 5px rgba(235, 152, 78, 0.5);
           box-shadow: 0px 0px 5px 5px rgba(235, 152, 78, 0.5);
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 .main .section2 .otrasaficiones .series h3 {
@@ -219,6 +251,22 @@ body {
 
 .main .section2 .otrasaficiones .series .video iframe {
   border-radius: 8px;
+}
+
+.footer {
+  background-color: #5D6D7E;
+  margin: 2%;
+}
+
+.footer .referencias {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.footer .referencias h5 {
+  margin: 0px;
+  padding: 5px;
 }
 
 @media (max-width: 600px) {
